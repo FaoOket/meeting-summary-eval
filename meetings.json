@@ -1,0 +1,102 @@
+{
+  "meetings": [
+    {
+      "id": "reunion_budget",
+      "audio": "audio/reunion_budget.m4a",
+      "reference_transcript": "scripts/reunion_budget.txt",
+      "language": "fr",
+      "duration_sec": 62,
+      "expected": [
+        {"label": "Décision : +5000€ budget marketing", "any_of": ["5000", "cinq mille", "marketing"]},
+        {"label": "Décision : démo reportée au 22/09", "any_of": ["22", "vingt-deux", "report"]},
+        {"label": "Action Karim : bug calcul des frais", "any_of": ["karim", "bug", "frais"]},
+        {"label": "Action Sarah : préparer la démo", "any_of": ["sarah", "démo", "invitation"]},
+        {"label": "Action : contacter l'hébergeur (migration)", "any_of": ["héberg", "migration", "prestataire"]}
+      ]
+    },
+    {
+      "id": "daily_dev",
+      "audio": "audio/daily_dev.m4a",
+      "reference_transcript": "scripts/daily_dev.txt",
+      "language": "fr",
+      "duration_sec": 48,
+      "expected": [
+        {"label": "Blocage : clé API staging expirée", "any_of": ["clé", "staging", "expir"]},
+        {"label": "Décision : gel des déploiements jusqu'à jeudi", "any_of": ["gel", "déploiement", "jeudi"]},
+        {"label": "Action Léa : régénérer la clé staging", "any_of": ["léa", "lea", "régén", "clé"]},
+        {"label": "Action Tom : revoir la pull request", "any_of": ["tom", "pull request", "revoir"]},
+        {"label": "Sprint review vendredi 14h", "any_of": ["sprint review", "vendredi", "14"]}
+      ]
+    },
+    {
+      "id": "point_client",
+      "audio": "audio/point_client.m4a",
+      "reference_transcript": "scripts/point_client.txt",
+      "language": "fr",
+      "duration_sec": 55,
+      "expected": [
+        {"label": "Maquette du tableau de bord validée", "any_of": ["maquette", "validé", "tableau de bord"]},
+        {"label": "Nouvelle exigence : export PDF", "any_of": ["pdf", "export", "exigence"]},
+        {"label": "Décision : facturer en avenant", "any_of": ["avenant", "factur"]},
+        {"label": "Livraison fixée au 10 octobre", "any_of": ["10 octobre", "dix octobre", "livraison"]},
+        {"label": "Action Nadia : chiffrer l'avenant PDF", "any_of": ["nadia", "chiffr", "avenant"]}
+      ]
+    },
+    {
+      "id": "sprint_review",
+      "audio": "audio/sprint_review.m4a",
+      "reference_transcript": "scripts/sprint_review.txt",
+      "language": "fr",
+      "duration_sec": 52,
+      "expected": [
+        {"label": "6 tickets sur 8 terminés", "any_of": ["six", "6", "huit", "8"]},
+        {"label": "Régression sur l'export Excel (priorité haute)", "any_of": ["régression", "export", "excel"]},
+        {"label": "Décision : ticket correctif prochain sprint", "any_of": ["correctif", "ticket", "sprint"]},
+        {"label": "Action Malik : documenter la régression", "any_of": ["malik", "document", "jira"]},
+        {"label": "Action Chloé : préparer le sprint planning", "any_of": ["chloé", "chloe", "planning"]}
+      ]
+    },
+    {
+      "id": "retro_equipe",
+      "audio": "audio/retro_equipe.m4a",
+      "reference_transcript": "scripts/retro_equipe.txt",
+      "language": "fr",
+      "duration_sec": 58,
+      "expected": [
+        {"label": "Positif : dailys en visio améliorent la com", "any_of": ["daily", "visio", "communication"]},
+        {"label": "Problème : revues de code trop lentes", "any_of": ["revue", "code", "lent"]},
+        {"label": "Décision : PR revue sous 24h max", "any_of": ["24", "vingt-quatre", "pull request", "revue"]},
+        {"label": "Décision : atelier partage toutes les 2 semaines", "any_of": ["atelier", "partage", "connaissance"]},
+        {"label": "Action Inès : créer le canal revues urgentes", "any_of": ["inès", "ines", "canal"]}
+      ]
+    },
+    {
+      "id": "incident_secu",
+      "audio": "audio/incident_secu.m4a",
+      "reference_transcript": "scripts/incident_secu.txt",
+      "language": "fr",
+      "duration_sec": 60,
+      "expected": [
+        {"label": "Tentative d'accès non autorisé détectée", "any_of": ["accès", "non autorisé", "tentative"]},
+        {"label": "Aucune donnée client exfiltrée", "any_of": ["aucune", "exfiltr", "donnée"]},
+        {"label": "Décision : reset mots de passe admin + 2FA", "any_of": ["mot de passe", "2fa", "deux facteurs", "authentification"]},
+        {"label": "Décision : audit de sécurité externe", "any_of": ["audit", "sécurité", "externe"]},
+        {"label": "Action Rachid : bloquer l'IP + pare-feu", "any_of": ["rachid", "ip", "pare-feu"]}
+      ]
+    },
+    {
+      "id": "planning_recrutement",
+      "audio": "audio/planning_recrutement.m4a",
+      "reference_transcript": "scripts/planning_recrutement.txt",
+      "language": "fr",
+      "duration_sec": 57,
+      "expected": [
+        {"label": "8 candidats présélectionnés (sur 40)", "any_of": ["huit", "8", "présélect", "candidat"]},
+        {"label": "Entretiens techniques semaine du 20/11", "any_of": ["20 novembre", "vingt novembre", "entretien"]},
+        {"label": "Décision : recrutement designer reporté au T1", "any_of": ["designer", "report", "trimestre"]},
+        {"label": "Lancement plateforme confirmé 1er décembre", "any_of": ["1er décembre", "premier décembre", "lancement"]},
+        {"label": "Action Fatou : organiser les convocations", "any_of": ["fatou", "convocation", "planning"]}
+      ]
+    }
+  ]
+}

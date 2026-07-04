@@ -1,0 +1,6 @@
+transformers>=4.44
+accelerate>=0.33
+librosa>=0.10
+torch>=2.0
+# Aucune dépendance pour l'évaluation elle-même (WER, couverture, agrégats
+# sont implémentés en Python pur dans evaluate.py).

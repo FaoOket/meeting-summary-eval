@@ -154,7 +154,7 @@ meeting-summary-eval/
 
 ## Note d'honnêteté
 
-Les réunions du jeu de test sont **scriptées puis enregistrées** pour disposer
+Les réunions du jeu de test sont **scriptées puis converties en audio** pour disposer
 d'une vérité de référence exacte (indispensable pour mesurer couverture et WER).
 La démarche et les métriques sont réelles ; seul le contenu des réunions est
 fabriqué, pour des raisons évidentes de confidentialité.

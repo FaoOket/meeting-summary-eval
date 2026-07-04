@@ -1,5 +1,6 @@
 audio/*.m4a
 audio/*.wav
 audio/*.mp3
+!audio/exemple_reunion.m4a
 __pycache__/
 results.json
